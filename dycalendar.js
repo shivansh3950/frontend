@@ -1,7 +1,3 @@
-/*!
- * dyCalendar is a JavaScript library for creating Calendar.
- 
- */
 (function (global) {
 
     "use strict";
@@ -35,10 +31,7 @@
 
     /**
      * this function will create month table.
-     *
-     * @param object data   this contains the calendar data
-     * @param object option this is the settings object
-     * @return html
+    
      */
     function createMonthTable(data, option) {
 
@@ -113,10 +106,7 @@
 
     /**
      * this function will draw Calendar Month Table
-     *
-     * @param object data   this contains the calendar data
-     * @param object option this is the settings object
-     * @return html
+    
      */
     function drawCalendarMonthTable(data, option) {
 
@@ -195,10 +185,7 @@
 
     /**
      * this function will draw Calendar Day
-     *
-     * @param object data   this contains the calendar data
-     * @param object option this is the settings object
-     * @return html
+     
      */
     function drawCalendarDay(data, option) {
 
@@ -274,10 +261,7 @@
 
     /**
      * this function will extend source object with defaults object.
-     *
-     * @param object source     this is the source object
-     * @param object defaults   this is the default object
-     * @return object
+   
      */
     function extendSource(source, defaults) {
         var property;
@@ -291,13 +275,7 @@
 
     /**
      * This function will return calendar detail.
-     *
-     * @param integer year        1900-9999 (optional) if not set will consider
-     *                          the current year.
-     * @param integer month        0-11 (optional) 0 = Jan, 1 = Feb, ... 11 = Dec,
-     *                          if not set will consider the current month.
-     * @param integer date      1-31 (optional)
-     * @return boolean|object    if error return false, else calendar detail
+
      */
     function getCalendar(year, month, date) {
 
